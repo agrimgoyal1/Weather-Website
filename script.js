@@ -15,7 +15,6 @@ if (response.status == 400) {
 }
 else {
     var data = await response.json()
-    console.log(data)
     document.querySelector(".name").innerHTML = data.address.toUpperCase();
     document.querySelector(".Temp").innerHTML = data.days[0].temp + "°C";
     document.querySelector(".humidity").innerHTML = data.days[0].humidity + "%";
