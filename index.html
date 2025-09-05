@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Apps </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="card"> 
+        <div class="search">
+            <input type="text" placeholder="Enter the city" spellcheck="false">
+            <button> <img src="images/search.png"></button>
+        </div>
+
+        <div class="error">
+            <p> Invalid City name </p>
+        </div>
+
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="Temp"> 22°C</h1> 
+            <h2> Feels like</h2>
+            <p class="faketemp"> 23°C</p>
+            <div class="more">
+                <div class="max">
+                    <h3> Max-Temperature</h3>
+                    <p class="max-temp">50°C</p>
+                </div>
+
+                <div class="min">
+                    <h3> Min - Temprature</h3>
+                    <p class="min-temp">15°C</p>
+                </div>
+            </div>
+            <h2 class="name"> New York</h2>
+            <p class="lastupdate">Last updated at :  </p>
+            <p class="date"></p>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div id="one">
+                        <p class="humidity"> 48% </p>
+                        <p> Humidity </p>
+                    </div>
+                </div>
+
+                <div class="col"> 
+                    <img src="images/wind.png">
+                    <div id="two">
+                        <p class="wind"> 10.29 km/h </p>
+                        <p> Wind Speed </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-details">
+              <h2> More Details  </h2>
+              <p class="sunrise">Sun rise at</p>
+              <p class="sunset">Sun sets at</p>   
+              <p class="visibility"> Visiblity : </p>
+              <p class="descripition"> Descripition</p>
+            </div>
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
